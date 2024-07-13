@@ -6,7 +6,7 @@
 
 在近年的游戏行业发展中，AI大模型已经被尝试性地运用到了部分游戏中，例如网易自研的“逆水寒”游戏中，玩家便可以和NPC进行对话，并获得不同的反馈以提升游戏的趣味性。除此之外，以游戏为媒介，AI agent技术也被运用于游戏开发中，并用于进行各样的前沿社会测试，例如[斯坦福小镇](https://github.com/joonspk-research/generative_agents/tree/main)。
 
-![image-20240712212640518](C:/Users/yuaner/AppData/Roaming/Typora/typora-user-images/image-20240712212640518.png)
+![image-20240712212640518](asset/image-20240712212640518.png)
 
 基于此，我构想将大模型融合于一款以未来为背景的解密游戏中，玩家需要与不同的NPC（搭载不同的AI agent）进行互动，达到一定的条件才能解锁对应道具并取得最终通关。该游戏不仅能提供一定的商业价值，也是对人与AI交互的一次以游戏为媒介的测试。
 
@@ -20,11 +20,11 @@
 
 游戏细节流程较为复杂，故作以下流程图便于理解：
 
-![681380f4c764ac1f177fdec7a8c0a8f](D:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/OneDrive/%E6%96%87%E6%A1%A3/WeChat%20Files/wxid_lek3r6n3aum122/FileStorage/Temp/681380f4c764ac1f177fdec7a8c0a8f.jpg)
+![681380f4c764ac1f177fdec7a8c0a8f](asset/681380f4c764ac1f177fdec7a8c0a8f.jpg)
 
 其中游戏有逐渐推进的时间设定，每天都需要与NPC交互以提高NPC好感度进而推进游戏，流程如下：
 
-![image](../../../image.png)
+![1720872855019](asset/1720872855019.png)
 
 ## 技术栈
 
@@ -44,7 +44,7 @@ AI接入：尝试ChatGPT （Inworld AI无中文）
 [Stable Diffusion](noveai/models/Stabl
 e-diffusion)用于生成游戏中的美术资产，节约了UI相关的人力投入和时间成本,具体工作流如下：
 
-![image-20240712212545506](C:/Users/yuaner/AppData/Roaming/Typora/typora-user-images/image-20240712212545506.png)
+![image-20240712212545506](asset/image-20240712212545506.png)
 
 ### 好感度分析模块（利用Open AI  API实现）
 
@@ -75,7 +75,7 @@ e-diffusion)用于生成游戏中的美术资产，节约了UI相关的人力投
 
 1.点击打包文件的CyberPsychosis.exe即可直接启动（只发给了对应老师邮件，没有放在Github）
 
-![image-20240713174851497](C:/Users/yuaner/AppData/Roaming/Typora/typora-user-images/image-20240713174851497.png)
+![image-20240713174851497](asset/image-20240713174851497.png)
 
 2.下载本仓库后导入Unity 2021.3.30.f1对src部分进行调试即可
 
