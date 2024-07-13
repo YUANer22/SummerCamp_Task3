@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce37e28aa7f45334baa7b6097705e207, type: 3}
+  m_Name: AIDemo 4
+  m_EditorClassIdentifier: 
+  dialogs:
+  - NPCConf: {fileID: 11400000, guid: ecf5b672cabec9845b6e6febc357cb96, type: 2}
+    NPCHead: {fileID: 21300000, guid: d52d1f65d0d072c4a9f7345473f0ee34, type: 3}
+    NPCContent: "\u4F60\u6709\u4EC0\u4E48\u4E8B\u60C5\u5417"
+    events:
+    - DialogEvent: 3
+      Args: 
+    selects: []

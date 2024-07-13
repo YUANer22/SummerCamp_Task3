@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce37e28aa7f45334baa7b6097705e207, type: 3}
+  m_Name: Vi_2
+  m_EditorClassIdentifier: 
+  dialogs:
+  - NPCConf: {fileID: 11400000, guid: ee86fcb4d21746c46b209081129bf60e, type: 2}
+    NPCHead: {fileID: 21300000, guid: 52bfe297bac3d8245b6854704623f725, type: 3}
+    NPCContent: "\u4F60\u5BF9\u7FBD\u6BDB\u7403\u7684\u4E86\u89E3\u8FD8\u633A\u6DF1\u5165\u7684"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: e61d2bf30bb3ed547829ee7e25eeb2a0, type: 2}
+    NPCHead: {fileID: 21300000, guid: c6efc451675253f41b44c9aff31f4c46, type: 3}
+    NPCContent: "\u6211\u5728\u5927\u5B66\u65F6\u671F\u5C31\u53C2\u52A0\u8FC7\u7701\u7EA7\u6BD4\u8D5B\u4E86\uFF0C\u8FD9\u70B9\u7A0B\u5EA6\u8FD8\u662F\u6CA1\u95EE\u9898\u7684"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: ee86fcb4d21746c46b209081129bf60e, type: 2}
+    NPCHead: {fileID: 21300000, guid: 52bfe297bac3d8245b6854704623f725, type: 3}
+    NPCContent: "\u6709\u610F\u601D\uFF0C\u53EF\u60DC\uFF0C\u4ECA\u5929\u6211\u8981\u4E0B\u73ED\u4E86\uFF0C\u6211\u53BB\u529E\u516C\u5BA4\u53D6\u70B9\u4E1C\u897F"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: e61d2bf30bb3ed547829ee7e25eeb2a0, type: 2}
+    NPCHead: {fileID: 21300000, guid: c6efc451675253f41b44c9aff31f4c46, type: 3}
+    NPCContent: "\u4E1C\u897F\uFF0C\u662F\u4ECE\u90A3\u4E2A\u4FDD\u9669\u67DC\u91CC\u53D6\u5417\uFF08\u5FC3\u58F0\uFF09"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: ee86fcb4d21746c46b209081129bf60e, type: 2}
+    NPCHead: {fileID: 21300000, guid: 52bfe297bac3d8245b6854704623f725, type: 3}
+    NPCContent: "\u54E6\u5BF9\u4E86\uFF0C\u6211\u6700\u540E\u529D\u4F60\u6700\u597D\u522B\u548C\u96EA\u8D70\u592A\u8FD1\uFF0C\u5979\u7684\u7CBE\u795E\u53EF\u4E0D\u592A\u7A33\u5B9A\uFF0C\u4E00\u76F4\u5728\u7528\u9547\u5B9A\u5242"
+    events:
+    - DialogEvent: 1
+      Args: Sephira
+    selects: []

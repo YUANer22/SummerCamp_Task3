@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce37e28aa7f45334baa7b6097705e207, type: 3}
+  m_Name: Demo
+  m_EditorClassIdentifier: 
+  dialogs:
+  - NPCConf: {fileID: 11400000, guid: cb6ffe8bc25503143b123270bb3ffec0, type: 2}
+    NPCHead: {fileID: 21300000, guid: e637e37daf0ccf347bcaa11141e69028, type: 3}
+    NPCContent: "\u4F60\u6709\u4EC0\u4E48\u4E8B\u60C5\u5417\uFF1F"
+    events: []
+    selects:
+    - Content: "\u6253\u62DB\u547C"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+    - Content: "\u6CA1\u4EC0\u4E48\u4E8B\u60C5"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 3
+  - NPCConf: {fileID: 11400000, guid: e61d2bf30bb3ed547829ee7e25eeb2a0, type: 2}
+    NPCHead: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    NPCContent: "\u4F60\u597D\u5440\uFF01"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: cb6ffe8bc25503143b123270bb3ffec0, type: 2}
+    NPCHead: {fileID: 21300000, guid: e637e37daf0ccf347bcaa11141e69028, type: 3}
+    NPCContent: "\u4F60\u662F\u6CA1\u4E8B\u5E72\u5417\uFF1F"
+    events:
+    - DialogEvent: 4
+      Args: 2
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: cb6ffe8bc25503143b123270bb3ffec0, type: 2}
+    NPCHead: {fileID: 21300000, guid: e637e37daf0ccf347bcaa11141e69028, type: 3}
+    NPCContent: "\u6CA1\u4E8B\u7684\u8BDD\u8BF7\u79BB\u5F00\u5427\u3002"
+    events:
+    - DialogEvent: 3
+      Args: 
+    - DialogEvent: 1
+      Args: 
+    selects: []

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce37e28aa7f45334baa7b6097705e207, type: 3}
+  m_Name: Aelia_1
+  m_EditorClassIdentifier: 
+  dialogs:
+  - NPCConf: {fileID: 11400000, guid: 58f0906b0a12e86439c1cb501419aef6, type: 2}
+    NPCHead: {fileID: 21300000, guid: f1ec99c35e47c2240b2f0f88ec542fc0, type: 3}
+    NPCContent: "\u5440\uFF0C\u4F60\u77E5\u9053\u5417\uFF0C\u4E3B\u6CBB\u533B\u751F\u8868\u9762\u770B\u9AD8\u51B7..."
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: e61d2bf30bb3ed547829ee7e25eeb2a0, type: 2}
+    NPCHead: {fileID: 21300000, guid: c6efc451675253f41b44c9aff31f4c46, type: 3}
+    NPCContent: "\u55EF\u55EF"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: 58f0906b0a12e86439c1cb501419aef6, type: 2}
+    NPCHead: {fileID: 21300000, guid: f1ec99c35e47c2240b2f0f88ec542fc0, type: 3}
+    NPCContent: "\u5B9E\u9645\u4E0A\u5979\u5F88\u559C\u6B22\u6253\u7FBD\u6BDB\u7403\uFF0C\u636E\u8BF4\u6709\u4E0D\u5C11\u7403\u53CB\u5462\uFF01"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: e61d2bf30bb3ed547829ee7e25eeb2a0, type: 2}
+    NPCHead: {fileID: 21300000, guid: c6efc451675253f41b44c9aff31f4c46, type: 3}
+    NPCContent: "\u54C8\u54C8\u54C8\uFF0C\u6211\u4E5F\u5F88\u559C\u6B22\u6253\uFF0C\u90A3\u6709\u673A\u4F1A\u6211\u53BB\u548C\u5979\u4E24\u628A"
+    events: []
+    selects: []
+  - NPCConf: {fileID: 11400000, guid: 58f0906b0a12e86439c1cb501419aef6, type: 2}
+    NPCHead: {fileID: 21300000, guid: f1ec99c35e47c2240b2f0f88ec542fc0, type: 3}
+    NPCContent: "\u597D\u9E2D\uFF0C\u6709\u673A\u4F1A\u6211\u8DDF\u4ED6\u8BF4\u4E00\u4E0B(\uFF61>\u2200<\uFF61)"
+    events:
+    - DialogEvent: 1
+      Args: Vidora
+    selects: []
